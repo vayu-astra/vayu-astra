@@ -1,12 +1,15 @@
-# Submission name
+# Vayu Astra
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia nisi ut fringilla sodales. Etiam elementum a arcu vel fringilla. Nulla ac efficitur felis. In a nisi bibendum, efficitur felis vel, consectetur quam. Aenean ornare justo velit, sed malesuada massa efficitur ut. Sed non augue vel risus tempus lacinia ac nec est. Nunc vel finibus felis. Vivamus felis diam, porta sed rhoncus eu, luctus eget justo. 
+# Overview
+......
+.....
+.......
+......
 
-Mauris odio ante, rhoncus et varius vel, vulputate et enim. Aliquam erat volutpat. Proin lacinia libero velit, a dictum sapien ultricies quis. Vivamus dolor nibh, efficitur in ipsum vitae, faucibus eleifend felis. Praesent consectetur turpis sit amet lorem tempor cursus. Nullam nec lectus massa. Proin feugiat placerat nisi lacinia lobortis. Duis efficitur ac orci ac lobortis.
+Vayu Astra is an AI - IoT platform built over IBM Cloud and Watson services, that makes CO2 emissions monitoring information Easy and Accessible to everyone
+[Project website](http://169.51.200.215:32414/ui/#!/0?socketid=ewvmZyH-UoeH7l0bAAAN)
 
-[Project website](https://sample-project.s3-web.us-east.cloud-object-storage.appdomain.cloud/)
-
-## Section 1
+## Key Features 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia nisi ut fringilla sodales. Etiam elementum a arcu vel fringilla. Nulla ac efficitur felis. In a nisi bibendum, efficitur felis vel, consectetur quam. Aenean ornare justo velit, sed malesuada massa efficitur ut. Sed non augue vel risus tempus lacinia ac nec est. Nunc vel finibus felis. Vivamus felis diam, porta sed rhoncus eu, luctus eget justo. 
 
