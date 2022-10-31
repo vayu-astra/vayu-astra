@@ -45,12 +45,12 @@ We want to combine technology + motive + idea to design a system for air quality
 Idea is to deploy large number of low cost device across geographic location to collect respective data, analyse it with help of cloud platform and send this data to user and respective authorities so they can take actions regarding it.
 
 ### The idea
-1)Predicts amount of CO2 in air
-As CO2 levels increases it will give notification to user
+1) Predicts amount of CO2 in air as CO2 levels increase it will give notification to user
+
 2)
 
-3)when there's any poisonous gas present in surrounding it will alert user about it by sending notification. 
-4) if government authorities are using vayu astra..on dashboard they can see respective data regarding CO2 oxygen levels and other harmful gases..if any particular area as soon as CO2 emissions will increase they give it information about it and it will become easier for them to recognise that area..and take respective strict actions to  factors which are contributing to it ..
+3) When there's any poisonous gas present in surrounding it will alert user about it by sending notification. 
+4) If government authorities are using vayu astra..on dashboard they can see respective data regarding CO2 oxygen levels and other harmful gases..if any particular area as soon as CO2 emissions will increase they give it information about it and it will become easier for them to recognise that area..and take respective strict actions to  factors which are contributing to it ..
 
 
 ## Demo video
