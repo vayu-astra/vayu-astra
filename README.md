@@ -35,15 +35,23 @@ _Read this in other languages: [English](README.md), [한국어](./docs/README.k
 
 ### What's the problem?
 
-Part of the World Health Organization's guidance on limiting further spread of COVID-19 is to practice social distancing. As a result, schools in most affected areas are taking precautionary measures by closing their facilities. With school-aged children at home for an indeterminate amount of time, keeping them engaged, entertained, and on top of their education is important.
+Are you aware that Air Pollution is the cause of 6·5 million deaths each year globally? It attributes 11.65% death every year. It not only takes away people's life but also largely affects on the quality of living. 
+Carbon emissions cause climate change by trapping heat, and impact public health adversely - inhalation of high concentrations of CO2 directly harms people's respiratory system, causing breathlessness, headache , chest pains and even cardiovascular diseases.
+
 
 ### How can technology help?
 
-Schools and teachers can continue to engage with their students through virtual classrooms, and even create interactive spaces for classes. As parents face a new situation where they may need to homeschool their children, finding appropriate online resources is important as well.
+We want to combine technology + motive + idea to design a system for air quality monitoring and its communication about the degradation of air, which will tell us amount of CO2 in air, along with oxygen levels, thanks to  IBM IoT services, this platform helped us to make our task easier. Along with monitoring CO2 , Oxygen, and dangerous gases levels, Vayu Astra will help user in detecting carbon emission pollution hotspot and will alert user regarding by sending them notification......
+Idea is to deploy large number of low cost device across geographic location to collect respective data, analyse it with help of cloud platform and send this data to user and respective authorities so they can take actions regarding it.
 
 ### The idea
+1)Predicts amount of CO2 in air
+As CO2 levels increases it will give notification to user
+2)
 
-It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
+3)when there's any poisonous gas present in surrounding it will alert user about it by sending notification. 
+4) if government authorities are using vayu astra..on dashboard they can see respective data regarding CO2 oxygen levels and other harmful gases..if any particular area as soon as CO2 emissions will increase they give it information about it and it will become easier for them to recognise that area..and take respective strict actions to  factors which are contributing to it ..
+
 
 ## Demo video
 
@@ -53,10 +61,15 @@ It's imperative that learning and creating can continue when educational institu
 
 ![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
 
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
+1) Vayu Astra hardware consists of low power, internet enabled setup that monitors air parameters ( CO2, oxygen levels, humidity, poisonous gases, temperature altitude etc) and sends it to IBM  Watson lot platform via MQTT
+2) The node RED backend IBM cloud collects these parameters via MQTT
+3) Once evaluation is done it stores the data instance on cloud database and sends the air quality information to the IBM dashboard for visual indication
+4) In case if there's increase amount of CO2, less oxygen levels in surroundings, or if any poisonous gas is present in surrounding the node red backend sends a text message to subscribed user and  they can see the data on respective dashboard
+5) The node RED backend sets up a websocket service for data transmission to vayu astra dashboard
+6) Vayu Astra dashboard then displays data in number, chart, maps, air quality estimation etc
+7) In any case hardware disconnects from internet it is capable to approximately asses the air quality and display through 16x2 LCD indicator
+8) In future we are planning to minimize current hardware setup into a dongle .
+
 
 ## Long description
 
