@@ -56,7 +56,7 @@ Idea is to deploy large number of low cost device across geographic location to 
 
 ## The architecture
 
-![image](https://ibb.co/bW4k62t)
+![image](images/architechture.png)
 
 1) Vayu Astra hardware consists of low power, internet enabled setup that monitors air parameters ( CO2, oxygen levels, humidity, poisonous gases, temperature altitude etc) and sends it to IBM  Watson lot platform via MQTT
 2) The node RED backend IBM cloud collects these parameters via MQTT
