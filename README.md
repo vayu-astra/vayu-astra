@@ -58,6 +58,7 @@ Idea is to deploy large number of low cost device across geographic location to 
 
 ![image](images/architechture.png)
 
+
 1) Vayu Astra hardware consists of low power, internet enabled setup that monitors air parameters ( CO2, oxygen levels, humidity, poisonous gases, temperature altitude etc) and sends it to IBM  Watson lot platform via MQTT
 2) The node RED backend IBM cloud collects these parameters via MQTT
 3) Once evaluation is done it stores the data instance on cloud database and sends the air quality information to the IBM dashboard for visual indication
@@ -65,6 +66,11 @@ Idea is to deploy large number of low cost device across geographic location to 
 5) The node RED backend sets up a websocket service for data transmission to vayu astra dashboard
 6) Vayu Astra dashboard then displays data in number, chart, maps, air quality estimation etc
 7) In any case hardware disconnects from internet it is capable to approximately asses the air quality and display through 16x2 LCD indicator
+
+![image](images/CO2.jpg)
+![image](images/Humidity temp.jpg)
+![image](images/Pressure and altitude.jpg)
+
 
 ## Long description
 
@@ -86,6 +92,9 @@ Now we have to configure the data our hardware is sending . In MQTT protocol pub
 Here our hardware is the publisher and the IBM IoT platform is the subscriber . A topic is created in hardware, let's say humidity, now the number of parameters will determine the number of topics created separately. For every topic created a node is sent , in our case we used 'Status' . Now after configuration, when I turn on my hardware ESP32 and it is connected to WiFi, it will start publishing data and it will be shown on my IBM IoT platform.
 Now all the parameters and the datas will start showing  on IoT platform. Any changes to the parameters will be sensed correctly and shown accordingly on the dashboard  as well .
 
+
+
+![image](images/vayu astra dashboard.jpg)
 ## Roadmap
 In future we are planning to make use of multiple Vayu Astra at different locations and make a network wokring hand to hand with authorities concerned with taking actions for better air quality . We also are planning to minimize current hardware setup into a portable, handy user friendly dongle .
 
