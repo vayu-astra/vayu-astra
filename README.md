@@ -68,7 +68,23 @@ Idea is to deploy large number of low cost device across geographic location to 
 
 ## Long description
 
-[More detail is available here](./docs/DESCRIPTION.md)
+The project currently does the following things.
+
+## Getting started
+In this project we designed  a hardware which measures and analyses atmospheric temperature , humidity , pressure , altitude from sea level and Carbon percentage in air . all these datas are captured by the hardware and  sent to IBM cloud server using MQTT protocol , a messaging protocol for IoT. 
+
+## Hardware 
+So coming to the hardware part we have used a couple of sensors and a microcontroller . The sensor we used here are DHT11 for sensing atmospheric  humidity and temperature , for pressure and altitude from sea level BMP 180 ,for Carbon percentage in air -  MQ135 . All these sensors are connected to our main controller which is ESP32 . And for data representation we have used a 16x2  LCD display , along with a I2C module which enables the device to communicate in a stable way. Rest of the sensors are driven by a program , for which we installed libraries in  program through which we can access the data and sense it .  
+Using MQTT publish subscribe architecture we are sending data to server. We also designed a PCB . We used a Zero PCB circuit board . The Perfboard was mounted and traced and designed. So the hardware is sensing the data , then sending the data to server. This is the hardware part .
+
+## Server
+Now the server part , what we have done is , we logged in to our IBM cloud , then created resources, then added our device in IoT platform , got our unique MAC address/ device ID . As of now we are using only one device but we can use multiple devices with their unique MAC address device ID , each linking to a particular geographical address of the device.
+Since it's a free plan we can only add one device. After adding our device, coming to the dashboard, we created cards , for representing data visually through bars graph ,linear graphs , pie charts etc .
+
+## Data Configuration
+Now we have to configure the data our hardware is sending . In MQTT protocol publish subscribe architecture, there is a publisher and a subscriber , and a node is created between them where the data is stored .
+Here our hardware is the publisher and the IBM IoT platform is the subscriber . A topic is created in hardware, let's say humidity, now the number of parameters will determine the number of topics created separately. For every topic created a node is sent , in our case we used 'Status' . Now after configuration, when I turn on my hardware ESP32 and it is connected to WiFi, it will start publishing data and it will be shown on my IBM IoT platform.
+Now all the parameters and the datas will start showing  on IoT platform. Any changes to the parameters will be sensed correctly and shown accordingly on the dashboard  as well .
 
 ## Roadmap
 In future we are planning to make use of multiple Vayu Astra at different locations and make a network wokring hand to hand with authorities concerned with taking actions for better air quality . We also are planning to minimize current hardware setup into a portable, handy user friendly dongle .
