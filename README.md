@@ -53,7 +53,7 @@ Idea is to deploy large number of low cost device across geographic location to 
 
 ## Demo video
 
-[![Watch the video](https://youtu.be/Qf2oPn3Z32U)
+[![Watch the video](https://drive.google.com/file/d/1R2dShqkPmLtq-fOzo-eTJIWD-gPvRQXa/view?usp=drivesdk )
 
 ## The architecture
 
@@ -109,7 +109,7 @@ In future we are planning to make use of multiple Vayu Astra at different locati
 http://169.51.200.215:32414/ui
 
 
-https://drive.google.com/file/d/1R2dShqkPmLtq-fOzo-eTJIWD-gPvRQXa/view?usp=drivesdk 
+
 
 ## Authors
 
