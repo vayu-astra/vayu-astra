@@ -67,7 +67,6 @@ Idea is to deploy large number of low cost device across geographic location to 
 6) Vayu Astra dashboard then displays data in number, chart, maps, air quality estimation etc
 7) In any case hardware disconnects from internet it is capable to approximately asses the air quality and display through 16x2 LCD indicator
 
-![image](images/CO2.jpg)
 
 
 
@@ -94,6 +93,9 @@ Now all the parameters and the datas will start showing  on IoT platform. Any ch
 
 
 ![image](images/vayu astra dashboard.jpg)
+
+
+
 ## Roadmap
 In future we are planning to make use of multiple Vayu Astra at different locations and make a network wokring hand to hand with authorities concerned with taking actions for better air quality . We also are planning to minimize current hardware setup into a portable, handy user friendly dongle .
 
