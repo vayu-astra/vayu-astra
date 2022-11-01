@@ -99,14 +99,6 @@ Now all the parameters and the datas will start showing  on IoT platform. Any ch
 In future we are planning to make use of multiple Vayu Astra at different locations and make a network wokring hand to hand with authorities concerned with taking actions for better air quality . We also are planning to minimize current hardware setup into a portable, handy user friendly dongle .
 
 
-
-
-## Live demo
-
-You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/).
-
-See the "long description" field in our submission (not in this repo) for the log-in credentials.
-
 ## Built with
 
 - [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
