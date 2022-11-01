@@ -53,7 +53,7 @@ Idea is to deploy large number of low cost device across geographic location to 
 
 ## Demo video
 
-[![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video](https://youtu.be/Qf2oPn3Z32U)
 
 ## The architecture
 
@@ -104,6 +104,8 @@ In future we are planning to make use of multiple Vayu Astra at different locati
 - [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
 - [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
 
+
+## live demo 
 
 
 ## Versioning
