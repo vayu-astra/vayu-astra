@@ -106,11 +106,8 @@ In future we are planning to make use of multiple Vayu Astra at different locati
 
 
 ## live demo 
-
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+http://169.51.200.215:32414/ui
+https://drive.google.com/file/d/1R2dShqkPmLtq-fOzo-eTJIWD-gPvRQXa/view?usp=drivesdk 
 
 ## Authors
 
