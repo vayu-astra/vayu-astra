@@ -53,7 +53,7 @@ Idea is to deploy large number of low cost device across geographic location to 
 
 ## Demo video
 
-[![Watch the video](https://drive.google.com/file/d/1R2dShqkPmLtq-fOzo-eTJIWD-gPvRQXa/view?usp=drivesdk )
+(https://drive.google.com/file/d/1R2dShqkPmLtq-fOzo-eTJIWD-gPvRQXa/view?usp=drivesdk )
 
 ## The architecture
 
