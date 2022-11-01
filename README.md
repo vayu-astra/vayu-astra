@@ -47,7 +47,8 @@ Idea is to deploy large number of low cost device across geographic location to 
 ### The idea
 1) Predicts amount of CO2 in air as CO2 levels increase it will give notification to user
 2) When there's any poisonous gas present in surrounding it will alert user about it by sending notification. 
-4) If government authorities are using vayu astra..on dashboard they can see respective data regarding CO2 oxygen levels and other harmful gases..if any particular area as soon as CO2 emissions will increase they give it information about it and it will become easier for them to recognise that area..and take respective strict actions to  factors which are contributing to it ..
+4) If government authorities are using vayu astra..on dashboard they can see respective data regarding CO2 oxygen levels and other harmful gases..if any particular area as soon as CO2 emissions will increase they give it information about it and it will become easier for them to recognise that area..and take respective strict actions to  factors which are contributing to it .
+5) If a user is traveling somehow it will give them alert about pollution hotspot, so they can carry respective preventive measures.
 
 
 ## Demo video
@@ -67,8 +68,9 @@ Idea is to deploy large number of low cost device across geographic location to 
 6) Vayu Astra dashboard then displays data in number, chart, maps, air quality estimation etc
 7) In any case hardware disconnects from internet it is capable to approximately asses the air quality and display through 16x2 LCD indicator
 
+![image](images/CO2.jpg)
 
-![image](images/vayu astra dashboard.jpg)
+
 
 ## Long description
 
@@ -89,8 +91,6 @@ Since it's a free plan we can only add one device. After adding our device, comi
 Now we have to configure the data our hardware is sending . In MQTT protocol publish subscribe architecture, there is a publisher and a subscriber , and a node is created between them where the data is stored .
 Here our hardware is the publisher and the IBM IoT platform is the subscriber . A topic is created in hardware, let's say humidity, now the number of parameters will determine the number of topics created separately. For every topic created a node is sent , in our case we used 'Status' . Now after configuration, when I turn on my hardware ESP32 and it is connected to WiFi, it will start publishing data and it will be shown on my IBM IoT platform.
 Now all the parameters and the datas will start showing  on IoT platform. Any changes to the parameters will be sensed correctly and shown accordingly on the dashboard  as well .
-
-
 
 
 
