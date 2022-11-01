@@ -68,8 +68,7 @@ Idea is to deploy large number of low cost device across geographic location to 
 7) In any case hardware disconnects from internet it is capable to approximately asses the air quality and display through 16x2 LCD indicator
 
 ![image](images/CO2.jpg)
-![image](images/Humidity temp.jpg)
-![image](images/Pressure and altitude.jpg)
+
 
 
 ## Long description
